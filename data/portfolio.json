@@ -3,18 +3,21 @@
         "image": "image1.png",
         "title": "Booki",
         "text": "Création d'une page d'accueil  en implémentant une interface responsive avec HTML et CSS .",
-        "link": "#"
+        "link": "https://gwen0216.github.io/Booki/",
+        "btnTitle": "Lien"
     },
     {
         "image": "ecobliss.png",
         "title": "Eco Bliss Bath",
         "text": "Automatisez des tests fonctionnels pour une boutique en ligne.",
-        "link": "https://github.com/Gwen0216/projet10"
+        "link": "https://github.com/Gwen0216/projet10",
+        "btnTitle": "Code source"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
         "text": "Créez une application web de location immobilière avec React.",
-        "link": "https://github.com/Gwen0216/projet-8"
+        "link": "https://github.com/Gwen0216/projet-8",
+        "btnTitle": "Code source"
     }
 ]
