@@ -23,6 +23,7 @@ function handleNavbarCollapse() {
     });
 }
 
+
 // Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
@@ -80,7 +81,7 @@ function createPortfolioFromJSON() {
                         <h4 class="card-title">${item.title}</h4>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                            <a href="${item.link}" class="btn btn-success" id="custom-button">${item.btnTitle}</a>
                         </div>
                     </div>
                 </div>
@@ -104,3 +105,5 @@ handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+
+
